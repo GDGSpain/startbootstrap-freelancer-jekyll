@@ -6,23 +6,28 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Start Bootstrap
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Web Developer - Graphic Artist - User Experience Designer
-baseurl: "/startbootstrap-freelancer-jekyll" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+title: Women Techmakers Galicia 2016
+email: info@gdgvigo.com
+description: > # this means to ignore newlines until the next key
+  Women Techmakers es una iniciativa liderada por Google, con un seguimiento mundial. Con motivo del Día Internacional
+  de la Mujer, se celebran diferentes eventos alrededor del mundo para dar a conocer el trabajo y el conocimiento de
+  las mujeres en el sector tecnológico.
+about: > # this means to ignore newlines until the next key
+  Organizado por GDG Vigo en colaboración con GDG Santiago, GDG Coruña, GDG Ourense y con el apoyo de nuestros sponsors
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://wtm.gdgvigo.com" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
-twitter_username: SBootstrap
-github_username:  BlackrockDigital
-facebook_username: StartBootstrap
+twitter_link: https://twitter.com/GDGVigo
+google_plus_link: https://plus.google.com/u/0/communities/104458805154699272096
 
 # Address information
-address_street: 3034 Melrose Place
-address_city: Beverly Hills
-address_state: CA
-address_zip: 90201
+address_link: https://goo.gl/maps/FDqSbVGz8Kp
+address_venue: Círculo de Empresarios de Galicia
+address_street: Avenida de García Barbón, 62
+address_city: Vigo
+address_zip: 36201
 
+copyright: Women Techmakers Spain, part of <a target="_blank" href="https://womentechmakers.com">WomenTechmakers</a>
 # Build settings
 markdown: kramdown
