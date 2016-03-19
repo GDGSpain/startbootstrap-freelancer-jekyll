@@ -1,3 +1,6 @@
+---
+---
+
 /* defaults */
 body, .navbar {
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -52,7 +55,7 @@ h6 {
 }
 
 header {
-    background-image: url('/img/wtm/WT_Cover_G+_OptionC_1080x608.jpg');
+    background-image: url('{{ '/img/wtm/WT_Cover_G+_OptionC_1080x608.jpg' | prepend: site.baseurl }}');
     background-position: top center;
     background-size: cover;
     background-repeat: repeat-y;
@@ -148,7 +151,7 @@ section.collaborators img {
 }
 
 .location {
-    background-image: url('/img/location.jpg');
+    background-image: url('{{ '/img/location.jpg'| prepend: site.baseurl }}');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 8em 0;

@@ -14,8 +14,8 @@ description: > # this means to ignore newlines until the next key
   las mujeres en el sector tecnológico.
 about: > # this means to ignore newlines until the next key
   Organizado por GDG Vigo en colaboración con GDG Santiago, GDG Coruña, GDG Ourense y con el apoyo de nuestros sponsors
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wtm.gdgvigo.com" # the base hostname & protocol for your site
+baseurl: "/wtm-galicia"
 
 # Social media profiles - feel free to add more here
 twitter_link: https://twitter.com/GDGVigo
@@ -28,6 +28,6 @@ address_street: Avenida de García Barbón, 62
 address_city: Vigo
 address_zip: 36201
 
-copyright: Women Techmakers Spain, part of <a target="_blank" href="https://womentechmakers.com">WomenTechmakers</a>
+copyright: Women Techmakers Spain, part of <a target="_blank" href="https://www.womentechmakers.com">WomenTechmakers</a>
 # Build settings
 markdown: kramdown
