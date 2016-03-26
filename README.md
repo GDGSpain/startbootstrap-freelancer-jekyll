@@ -8,15 +8,15 @@ To begin using this template, choose one of the following options to get started
 * [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/)
 * Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
 * Fork the repo
-* install Jekyll gem: gem install jekyll
+* Install Jekyll gem: gem install jekyll
 
 
 ## Use it
 
-to review the use: jekyll serve
-to build the web : jekyll b
+* to review the use: jekyll serve
+* to build the web : jekyll b
 
-finally you can upload the _dist folder files.
+* finally you can upload the _dist folder files.
 
 ## Bugs and Issues
 
