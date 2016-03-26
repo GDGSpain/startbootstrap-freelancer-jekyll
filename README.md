@@ -13,8 +13,8 @@ To begin using this template, choose one of the following options to get started
 
 ## Use it
 
-* to review the use: jekyll serve
-* to build the web : jekyll b
+* to review the web, use : jekyll serve
+* to build the final web : jekyll b
 
 * finally you can upload the _dist folder files.
 
