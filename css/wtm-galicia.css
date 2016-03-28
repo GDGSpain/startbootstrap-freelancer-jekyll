@@ -1,7 +1,6 @@
 ---
 ---
-
-/* defaults */
+    /* defaults */
 body, .navbar {
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -55,7 +54,7 @@ h6 {
 }
 
 header {
-    background-image: url('{{ '/img/wtm/WT_Cover_G+_OptionC_1080x608.jpg' | prepend: site.baseurl }}');
+    background-image: url('{{ ' /img/wtm/WT_Cover_G+_OptionC_1080x608.jpg ' | prepend: site.baseurl }}');
     background-position: top center;
     background-size: cover;
     background-repeat: repeat-y;
@@ -82,6 +81,7 @@ section.sponsors-callout {
     padding: 2em 0;
     color: #ffffff;
 }
+
 section.sponsors {
     padding: 4em 0;
 }
@@ -93,14 +93,30 @@ section.program {
     padding: 4em 0;
 }
 
+table.program a {
+    text-decoration: none;
+}
+table.program a:hover {
+    text-decoration: underline;
+}
+
 table.program {
     border-collapse: collapse;
     margin: 0 auto;
+    font-weight: 400;
+}
+
+table.program tr:nth-child(2n) a {
+    color: #666;
 }
 
 table.program tr:nth-child(2n) {
     background: #ffffff;
     color: #666;
+}
+
+table.program tr:nth-child(2n-1) a {
+    color: white;
 }
 
 table.program tr:nth-child(2n-1) {
@@ -151,10 +167,133 @@ section.collaborators img {
 }
 
 .location {
-    background-image: url('{{ '/img/location.jpg'| prepend: site.baseurl }}');
+    background-image: url('{{ ' /img/location.jpg '| prepend: site.baseurl }}');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 8em 0;
     color: white;
     text-shadow: #333333 2px 2px 2px;
+}
+
+.speaker-avatar {
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.section-speaker {
+    background-color: white;
+    color: #666;
+    padding: 2em 0;
+}
+
+
+.section-speaker-links {
+    background-color: white;
+    color: #666;
+    padding: 2em 0;
+}
+
+.section-speaker-talk {
+    background-color: #EFEFEF;
+    padding: 5em 0;
+}
+
+.section-speaker .card {
+    margin: 1em;
+    text-align: center;
+}
+
+.section-speaker .card p {
+    margin: 0;
+    padding: 0;
+}
+
+.section-speaker-talk .speaker-link {
+    text-align: center;
+}
+
+.section-speaker .speaker-avatar {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 1em;
+}
+
+.section-speaker h1.speaker-name {
+    padding: 1em 0;
+}
+
+.section-speaker .speaker-name {
+    font-weight: 600;
+}
+
+.section-speaker .speaker-tagline {
+    font-size: 1.1em;
+    color: #666;
+    text-align: center;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.section-speaker .speaker-organization {
+    font-size: 1em;
+    font-weight: 600;
+    color: #666;
+    text-align: center;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.speaker-social-links {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.speaker-social-links a {
+    color: #46c3f7;
+}
+
+.speaker-social-links a:hover {
+    color: #00bfa5;
+}
+
+.section-speaker-list {
+    padding: 2em 0;
+}
+
+.section-speaker-list .speaker {
+    padding: 1em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.section-speaker-list .speaker p {
+    margin: 0;
+    padding: 0;
+}
+
+.section-speaker-list .speaker .speaker-avatar {
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.section-speaker-list .speaker .speaker-name {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+}
+
+.section-speaker-list .speaker .speaker-tagline {
+    font-size: 1em;
+    font-weight: 400;
+    color: black;
+}
+
+.section-speaker-list .speaker .speaker-organization {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: black;
 }

@@ -1,0 +1,10 @@
+<div class="col-xs-12">
+  <h3>{{page.talk_title}}</h3>
+  <h4 class="slot">{{page.talk_slot}}</h4>
+  {% for paragraph in page.talk %}
+  <p>{{paragraph}}</p>
+  {% endfor %}
+  <p class="speaker-link">
+    <a href="#speaker">{{page.speaker_name}}</a>
+  </p>
+</div>

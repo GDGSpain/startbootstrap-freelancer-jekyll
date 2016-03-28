@@ -1,0 +1,19 @@
+<article class="section-speaker-list">
+  <div class="container-flexible">
+    <div class="row">
+      <div class="col-xs-12"><h1>Ponentes</h1></div>
+    </div>
+    <div class="row">
+      {% for speaker in site.speakers %}
+      <div class="col-xs-6 col-sm-4 col-md-3 speaker js-link">
+        <a href="{{speaker.url}}"><img
+                src="{{speaker.speaker_picture | prepend: '/img/speakers/' | prepend: site.baseurl }}"
+                alt="{{speaker.speaker_name}}" class="speaker-avatar"></a>
+        <p class="speaker-name"><a href="{{speaker.url}}">{{speaker.speaker_name}}</a></p>
+        <p class="speaker-tagline">{{speaker.speaker_tagline}}</p>
+        <p class="speaker-organization"><a target="_blank" rel="nofollow" href="{{speaker.link_organization}}">{{speaker.speaker_organization}}</a></p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</article>

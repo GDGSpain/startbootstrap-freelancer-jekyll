@@ -31,3 +31,7 @@ address_zip: 36201
 copyright: Women Techmakers Spain, part of <a target="_blank" href="https://www.womentechmakers.com">WomenTechmakers</a>
 # Build settings
 markdown: kramdown
+
+collections:
+ speakers:
+   output: true

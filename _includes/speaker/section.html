@@ -1,0 +1,57 @@
+<!-- Speaker profile -->
+<a name="speaker"></a>
+<article class="section-speaker">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-4">
+        <h1 class="speaker-name">{{page.speaker_name}}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 card-container">
+
+        {% include speaker/card.html %}
+
+      </div>
+      <div class="col-xs-12 col-sm-8 bio-container">
+
+        {% include speaker/bio.html %}
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+<a name="talk"></a>
+<article class="section-speaker-talk">
+  <div class="container">
+    <div class="row">
+
+      {% include speaker/talk.html %}
+
+    </div>
+  </div>
+</article>
+
+
+<article class="section-speaker-links">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-4 links-container">
+
+        {% if page.links | size > 0 %}
+        {% include speaker/links.html %}
+        {% endif %}
+
+      </div>
+      <div class="col-xs-8 work-container">
+
+        {% include speaker/at-work.html %}
+
+      </div>
+    </div>
+
+  </div>
+</article>
