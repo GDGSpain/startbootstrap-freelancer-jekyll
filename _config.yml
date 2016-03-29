@@ -15,7 +15,7 @@ description: > # this means to ignore newlines until the next key
 about: > # this means to ignore newlines until the next key
   Organizado por GDG Vigo en colaboración con GDG Santiago, GDG Coruña, GDG Ourense y con el apoyo de nuestros sponsors
 url: "http://wtm.gdgvigo.com" # the base hostname & protocol for your site
-baseurl: "/wtm-galicia"
+baseurl: ""
 
 # Social media profiles - feel free to add more here
 twitter_link: https://twitter.com/GDGVigo
