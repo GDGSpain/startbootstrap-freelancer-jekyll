@@ -24,11 +24,13 @@
 <!-- EU cookie law compliance -->
 <script type="text/javascript" src="{{ "/js/jquery.cookiebar.js" | prepend: site.baseurl }}"></script>
 <script>
-    function loadGoogleAnalytics() {
+    function trackGoogleAnalytics() {
         // We've got permission to track
 
         ga('create', 'UA-73757047-3', 'auto');
         ga('send', 'pageview');
+
+        console.log('tracking events');
     }
 
     $(document).ready(function(){
@@ -37,7 +39,11 @@
             bottom: true,
             acceptText: 'Entendido',
             message: 'Usamos cookies para registrar visitas y preferencias',
-            acceptFunction: loadGoogleAnalytics
+            acceptFunction: trackGoogleAnalytics
         });
+
+        if(jQuery.cookieBar('cookies')){
+            trackGoogleAnalytics();
+        }
     });
 </script>
