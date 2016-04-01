@@ -82,6 +82,16 @@ section.sponsors-callout {
     color: #ffffff;
 }
 
+section.press-callout {
+    background: white;
+    padding: 2em 0;
+    color: #666;
+}
+section.press-callout .btn.btn-outline {
+    border-color: #666;
+    color: #666;
+}
+
 section.sponsors {
     padding: 4em 0;
 }
