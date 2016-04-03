@@ -3,7 +3,7 @@
        alt="{{page.speaker_name}}" class="speaker-avatar">
   <p class="speaker-name">{{page.speaker_name}}</p>
   <p class="speaker-tagline">{{page.speaker_tagline}}</p>
-  <p class="speaker-organization">{{page.speaker_organization}}</p>
+  <p class="speaker-organization"><a target="_blank" rel="nofollow" href="{{page.link_organization}}">{{page.speaker_organization}}</a></p>
 
   <ul class="speaker-social-links list-inline">
     {% if page.link_linkedin %}
@@ -13,7 +13,7 @@
     <li><a target="_blank" rel="nofollow" href="{{ page.link_twitter }}"><i
             class="fa fa-fw fa-twitter"></i></a></li>
     {% endif %} {% if page.link_googleplus %}
-    <li><a target="_blank" rel="nofollow" href="{{ page.link_twitter }}"><i
+    <li><a target="_blank" rel="nofollow" href="{{ page.link_googleplus }}"><i
             class="fa fa-fw fa-google-plus"></i></a></li>
     {% endif %} {% if page.link_website %}
     <li><a target="_blank" rel="nofollow" href="{{ page.link_website }}"><i
