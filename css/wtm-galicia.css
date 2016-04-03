@@ -307,3 +307,7 @@ section.collaborators img {
     font-weight: 300;
     color: black;
 }
+
+img.gdg {
+    max-height: 40px !important;
+}
