@@ -139,12 +139,26 @@ table.program td {
     padding: 1em;
 }
 
-section.sponsors img {
+.section.sponsors {
+    margin: 2em auto;
+}
+
+.sponsors img {
     max-height: 70px;
     margin: 1em auto;
 }
 
-section.collaborators img {
+.collaborators img {
+    max-height: 50px;
+    margin: 1em auto;
+}
+
+.media-partners img {
+    max-height: 30px;
+    margin: 1em auto;
+}
+
+.organizers img {
     max-height: 50px;
     margin: 1em auto;
 }
