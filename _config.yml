@@ -6,28 +6,29 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Women Techmakers Galicia 2016
+title: Viernes 26 Mayo | Women Techmakers Galicia 2017
 email: info@gdgvigo.com
 description: > # this means to ignore newlines until the next key
   Women Techmakers es una iniciativa liderada por Google, con un seguimiento mundial. Con motivo del Día Internacional
   de la Mujer, se celebran diferentes eventos alrededor del mundo para dar a conocer el trabajo y el conocimiento de
   las mujeres en el sector tecnológico.
 about: > # this means to ignore newlines until the next key
-  Organizado por GDG Vigo en colaboración con GDG Santiago, GDG Ourense y con el apoyo de nuestros sponsors
+  Organizado por GDG Vigo en colaboración con Startup Galicia, GDG Santiago, GDG Ourense y con el apoyo de nuestros sponsors
 url: "http://wtm.gdgvigo.com" # the base hostname & protocol for your site
 baseurl: ""
 
 # Social media profiles - feel free to add more here
 twitter_link: https://twitter.com/GDGVigo
-facebook_link: https://www.facebook.com/events/1678755705710329
+facebook_link: https://www.facebook.com/googledevelopergroupvigo
 google_plus_link: https://plus.google.com/u/0/communities/104458805154699272096
+meetup_link: https://meetup.com/gdgvigo
 
 # Address information
-address_link: https://goo.gl/maps/FDqSbVGz8Kp
-address_venue: Círculo de Empresarios de Galicia
-address_street: Avenida de García Barbón, 62
+address_link: https://goo.gl/maps/Pp1hxU8e85q
+address_venue: Auditorio Municipal de Vigo
+address_street: Praza do Rei
 address_city: Vigo
-address_zip: 36201
+address_zip: 36202
 
 copyright: Women Techmakers Spain, part of <a target="_blank" href="https://www.womentechmakers.com">WomenTechmakers</a>
 # Build settings
